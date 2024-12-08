@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235473021060",
+    "project_id": "nasamarcos-54379",
+    "storage_bucket": "nasamarcos-54379.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235473021060:android:39cae3b19712991538bad1",
+        "android_client_info": {
+          "package_name": "com.example.tareafinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235473021060-j3bn2uapcjnb292d3jlajar2ufi7i5cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvUVfb9AgYW4eopuxgbMTJeqVhq0fp-To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235473021060-j3bn2uapcjnb292d3jlajar2ufi7i5cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

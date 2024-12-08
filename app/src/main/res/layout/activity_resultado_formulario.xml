@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        android:clipToPadding="false">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Gracias por tu participación!"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Resultado Planeta Favorito -->
+        <TextView
+            android:id="@+id/tvPlanetaFavorito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Planeta Favorito: "
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Resultado Viaje Espacial -->
+        <TextView
+            android:id="@+id/tvViajeEspacial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Te gustaría viajar al espacio?: "
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Resultado Actividad Espacial -->
+        <TextView
+            android:id="@+id/tvActividadEspacial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actividad Favorita en el Espacio: "
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón de Volver -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
